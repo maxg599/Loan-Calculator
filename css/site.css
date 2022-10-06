@@ -1,30 +1,36 @@
 :root{
-    --primary-color:#1d5888;
-    --secondary-color:#ff993b;
+    --primary-color:#cbb26b;
+    --secondary-color:#521247;
     --dark-color:#292929;
     --white-color:#dff3e4;}
     body{
-        color:var(--dark-color);
+        color: #854a7b;
+        background-color: #EAEAEA;
     }
 
     nav{
-        background-color:var(--dark-color)
+        background-color:var(--secondary-color);
+        font-family: 'Spectral SC', serif;
     }
 
-    footer{background-color:var(--dark-color);
+    footer{background-color:var(--primary-color);
     }
 
     h1,h2,h3,h4,h5,h6{
         color:var(--primary-color);
     }
 
-
+    a.btn:hover{
+        background: var(--secondary-color);
+    }
+    
 
 
 
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
+    font-family: 'Spectral SC', serif;
 }
 .sticky-footer {
     position: sticky;
@@ -32,6 +38,7 @@ main>.container {
     bottom: 0;
     width: 100%;
     padding-right: 1rem;
+    font-family: 'Spectral SC', serif;
 }
 
 footer .social>a {
